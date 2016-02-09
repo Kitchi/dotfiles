@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/krishna/dotvim/.vim/bundle/base16-vim'
+let g:netrw_dirhist_2='/home/krishna/.vim/bundle/base16-vim'
+let g:netrw_dirhist_3='/home/krishna/sigmaclip'
+let g:netrw_dirhist_4='/home/krishna/Docs/Astro/GMRT/29_062/28Nov15_29_062'
+let g:netrw_dirhist_5='/home/krishna/.config/slimzsh/pure'
