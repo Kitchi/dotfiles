@@ -36,7 +36,6 @@ set ttyfast
 set ruler
 set backspace=indent,eol,start
 set laststatus=2
-set relativenumber
 
 set ignorecase
 set smartcase
@@ -52,8 +51,6 @@ set textwidth=79
 set formatoptions=qrn1
 
 set grepprg=grep\ -nH\ $*
-let g:tex_flavour='latex'
-set runtimepath+=~/.vim,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after,~/.vim/after
 
 se t_Co=256
 
