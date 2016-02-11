@@ -1,0 +1,17 @@
+[user]
+	email = kitchi.srikrishna@gmail.com
+	name = Srikrishna Sekhar
+[core]
+   editor = vim
+
+[push]
+	default = simple
+[alias]
+	co = checkout
+   ll = log
+   ls = log --pretty=format:'%Cgreen%h %Cred%ad %d %Creset%s' --date=relative
+   ss = status -s
+   la = "!git config -l | grep alias | cut -c 7-"
+
+[color]
+   status = auto
