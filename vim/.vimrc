@@ -60,5 +60,5 @@ hi Search ctermfg=yellow ctermbg=None
 let mapleader=","
 
 " Switch to alternate file
-map <C-J> :bnext<cr>
-map <C-K> :bprevious<cr>
+map <C-J> :bprevious<cr>
+map <C-K> :bnext<cr>
