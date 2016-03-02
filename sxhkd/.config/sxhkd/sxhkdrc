@@ -83,6 +83,9 @@ super + @button{1-3}
 super + Return
 	urxvt
 
+ctrl + alt + t
+   gnome-terminal
+
 super + space
 	dmenu_run
 

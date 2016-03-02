@@ -37,3 +37,5 @@ export -U PATH=$PATH:$HOME/bin/Python:$HOME/bin/Shell
 export -U PATH=/home/krishna/anaconda3/bin:$PATH
 
 export -U PYTHONPATH=/home/krishna/src/pyradioastro:$PYTHONPATH
+
+export TERM='xterm-256color'
