@@ -1,18 +1,22 @@
 set nocp
 
 filetype off
-call pathogen#infect()
+" Use Vundle to get all the plugins
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'chriskempson/base16-vim'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+call vundle#end()
 filetype plugin indent on
 syntax on
 
 set background=dark
-"let base16colorspace=256
-"colorscheme base16-atelierlakeside
-"colorscheme base16-bright
 
 "vim-airline customization
 let g:airline_detect_whitespace=0
-let g:airline_theme="luna"
+let g:airline_theme="base16_default"
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#tab_min_count = 2
 let g:airline#extensions#tabline#buffer_min_count = 2

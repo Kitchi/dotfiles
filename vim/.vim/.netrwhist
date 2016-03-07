@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/home/krishna/src/pyradioastro'
-let g:netrw_dirhist_2='/home/krishna/src'
-let g:netrw_dirhist_3='/home/krishna/src/pyradioastro'
-let g:netrw_dirhist_4='/home/krishna/src/pyradioastro/lib'
-let g:netrw_dirhist_5='/home/krishna/src/jansky/jansky'
