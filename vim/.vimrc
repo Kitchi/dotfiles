@@ -8,6 +8,8 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'chriskempson/base16-vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'Townk/vim-autoclose'
+Plugin 'andviro/flake8-vim'
 call vundle#end()
 filetype plugin indent on
 syntax on
@@ -66,3 +68,9 @@ let mapleader=","
 " Switch to alternate file
 map <C-J> :bprevious<cr>
 map <C-K> :bnext<cr>
+
+" Map the colon to semicolor, easier to write to buffer etc
+nnoremap ; :
+
+" Clear the current search
+nmap <silent> ,/ :nohlsearch<CR>
