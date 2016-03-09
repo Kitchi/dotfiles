@@ -9,7 +9,6 @@ Plugin 'chriskempson/base16-vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'Townk/vim-autoclose'
-Plugin 'andviro/flake8-vim'
 call vundle#end()
 filetype plugin indent on
 syntax on
@@ -74,6 +73,3 @@ nnoremap ; :
 
 " Clear the current search
 nmap <silent> ,/ :nohlsearch<CR>
-
-"Configure flake8-vim
-let g:PyFlakeDisabledMessages = 'E221'
