@@ -74,3 +74,6 @@ nnoremap ; :
 
 " Clear the current search
 nmap <silent> ,/ :nohlsearch<CR>
+
+"Configure flake8-vim
+let g:PyFlakeDisabledMessages = 'E221'
