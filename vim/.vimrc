@@ -32,7 +32,7 @@ set tabstop=3           "Indent by 3 spaces when pressing <TAB>
 set shiftwidth=3        "Indent by 3 spaces when using >>, <<, == etc
 set expandtab           "Use softtabsstop spaces instead of TAB characters
 set autoindent          "Copy indent from previous line
-set pastetoggle=<C-P>   "Ctrl-P toggles paste mode
+set pastetoggle=<F2>    "Ctrl-P toggles paste mode
 
 set showmode
 set showcmd
