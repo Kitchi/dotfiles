@@ -15,6 +15,7 @@ filetype plugin indent on
 syntax on
 
 set background=dark
+"colorscheme base16-default
 
 "vim-airline customization
 let g:airline_detect_whitespace=0
