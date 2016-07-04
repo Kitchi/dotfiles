@@ -10,6 +10,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'Townk/vim-autoclose'
 Plugin 'JuliaLang/julia-vim'
+Plugin 'ntpeters/vim-better-whitespace'
 call vundle#end()
 filetype plugin indent on
 syntax on
